@@ -22,37 +22,16 @@ ESP32-based IoT Smart Irrigation System for real-time monitoring of soil moistur
 
 ## 🔌 Pin Connections
 
-### 🔹 DHT11 Sensor
-- VCC → 3.3V
-- GND → GND
-- DATA → GPIO 4
-
-### 🔹 Soil Moisture Sensor
-- VCC → 3.3V
-- GND → GND
-- AO → GPIO 34
-
-### 🔹 pH Sensor
-- VCC → 5V
-- GND → GND
-- AO → GPIO 35
-
-### 🔹 INA219 Sensor
-- VCC → 3.3V
-- GND → GND
-- SDA → GPIO 21
-- SCL → GPIO 22
-
-### 🔹 OLED Display
-- VCC → 3.3V
-- GND → GND
-- SDA → GPIO 21
-- SCL → GPIO 22
-
-### 🔹 Relay Module
-- IN → GPIO 26
-- VCC → 5V
-- GND → GND
+| Component | ESP32 Pin |
+|---|---|
+| DHT11 Sensor | GPIO 4 |
+| Soil Moisture Sensor | GPIO 34 |
+| pH Sensor | GPIO 35 |
+| INA219 Sensor (SDA) | GPIO 21 |
+| INA219 Sensor (SCL) | GPIO 22 |
+| OLED Display (SDA) | GPIO 21 |
+| OLED Display (SCL) | GPIO 22 |
+| Relay Module | GPIO 26 |
 
 ---
 
